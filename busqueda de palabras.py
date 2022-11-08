@@ -26,6 +26,9 @@ def MiFuncion(frase,buscar):
     return resultado
 
 #programa principal
-frase = "pablito clavó un clavito"
-buscar = "cla"
-print(MiFuncion(frase,buscar)
+def main():
+    frase = "pablito clavó un clavito"
+    buscar = "cla"
+    print(MiFuncion(frase,buscar))
+
+main()
