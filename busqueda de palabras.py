@@ -25,6 +25,9 @@ def MiFuncion(frase,buscar):
     
     return resultado
 
+def Mostrar():
+    print("Hola mundo")
+
 #programa principal
 def main():
     frase = "pablito clavó un clavito"
