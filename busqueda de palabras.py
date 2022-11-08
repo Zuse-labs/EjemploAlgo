@@ -27,7 +27,7 @@ def MiFuncion(frase,buscar):
 
 def Mostrar():
     print("Hola mundo METO UN CAMBIO!!!!!")
-    print("qué pasa ahora con el merge??")
+    print("qué pasa ahora con el merge??.")
 
 #programa principal
 def main():
