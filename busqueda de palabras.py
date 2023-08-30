@@ -35,4 +35,5 @@ def main():
     buscar = "cla"
     print(MiFuncion(frase,buscar))
 
+#este es el main
 main()
