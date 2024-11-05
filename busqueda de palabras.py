@@ -2,7 +2,7 @@
 # El sistema deberá imprimir por pantalla las palabras de la frase que comienzan con el término que el usuario buscó.
 # Ej: ‘mi capacidad para resolver parciales es interminable’ Luego el usuario puede buscar el término: par
 # El sistema deberá imprimir por pantalla las palabras: para parciales
-#mifrase="pablito clavo un clavito"
+#mifrase="pablito clavo un clavito",
 
 mifrase = input(print("ingrese una frase por favor")) 
 busqueda = input(print("ingrese una palabra o término a buscar")) 
