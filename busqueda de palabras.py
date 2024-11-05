@@ -4,7 +4,7 @@
 # El sistema deberá imprimir por pantalla las palabras: para parciales
 #mifrase="pablito clavo un clavito",
 
-mifrase = input(print("ingrese una frase por favor")) 
+mitexto = input(print("ingrese una frase por favor")) 
 busqueda = input(print("ingrese una palabra o término a buscar")) 
 
 lista_palabras = mifrase.split(" ")
