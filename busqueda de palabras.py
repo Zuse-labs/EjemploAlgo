@@ -4,25 +4,25 @@
 # El sistema deberá imprimir por pantalla las palabras: para parciales
 #mifrase="pablito clavo un clavito",
 
-mifrase = input(print("ingrese una frase por favor")) 
+texto_ingresado = input(print("ingrese una frase por favor")) 
 busqueda = input(print("ingrese una palabra o término a buscar")) 
 
-lista_palabras = mifrase.split(" ")
+lista_palabras = texto_ingresado.split(" ")
 
 for palabra in lista_palabras:
     if (busqueda == palabra[0:len(busqueda)-1]):
         print(palabra)
-            
-    
+
+
 #en caso que nos pidan una función!:
 def MiFuncion(frase,buscar):
-    lista_palabras = mifrase.split(" ")
+    lista_palabras = texto_ingresado.split(" ")
 
     resultado = []
     for palabra in lista_palabras:
         if (busqueda == palabra[0:len(busqueda)-1]):
             resultado.append(palabra)
-    
+
     return resultado
 
 def Mostrar():
